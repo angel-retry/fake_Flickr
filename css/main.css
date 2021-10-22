@@ -1,0 +1,155 @@
+.nav1{
+	background-color: #202023;
+	height: 50px;
+}
+.icon-flickr_logo_dots{
+	height: 50px;
+	width: 110px;
+}
+.nav1 .fa-cloud-upload{
+	font-size: 24px;
+}
+.nav1 .navbar-nav .nav-link{
+	color: #fff;
+}
+.nav1 .fa-search{
+	position: absolute;
+	font-size: 16px;
+	color: #535354;
+	margin-left: 10px;
+}	
+.nav1 form input{
+	padding-left: 30px;
+	background-attachment: #d0d0d1;
+	flex: 14;
+	border-radius: 3px;
+}
+.nav1 .navbar-nav .nav-item-1:hover .dropdown-menu{
+	display: block;
+}
+.nav1 .navbar-nav .nav-item-2:hover .dropdown-menu{
+	display: block;
+}
+.nav1 .navbar-nav .nav-item .dropdown-menu::after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 15px 20px 15px;
+	border-color: transparent transparent #ffffff transparent;
+	position: absolute;
+	top: -12px;
+}
+header{
+	height: 250px;
+	background-image: url(https://live.staticflickr.com/4552/coverphoto/13980928@N03_h.jpg);
+	background-size: cover;
+	background-position: left bottom;
+}
+header .img-head{
+	width: 90px;
+	border-radius: 50%;
+}
+header .btn-white{
+	background-color: #fff;
+}
+header .btn-mail{
+	width: 50px;
+}
+header .text-name{
+	font-size: 2rem;
+}
+
+aside{
+	border-bottom: 1px solid #dcdcdc;
+	background: #fff;
+}
+aside .nav-item .active{
+	border-bottom: 3px solid #0090DC;
+	font-weight: bold;
+}
+.sticky-offset{
+	top: 50px;
+}
+section{
+	min-height: 60vh;
+}
+.box{
+	height: 200px;
+	position: relative;
+}
+div.box::before{
+	content: "";
+    position: absolute;
+    border: 0.5px solid #afb7bd;
+    width: 98%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -2px;
+}
+div.box::after{
+	content: "";
+    position: absolute;
+    border: 0.5px solid #afb7bd;
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -4px;
+}
+.img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+.info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(11%, rgba(0, 0, 0, 0.8)), color-stop(37%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 11%, rgba(255, 255, 255, 0) 37%);
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 11%, rgba(255, 255, 255, 0) 37%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 11%, rgba(255, 255, 255, 0) 37%);
+	overflow:hidden;
+}
+section .info:hover .line1 {
+    margin-top: 90px; 
+}
+section .info .line {
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+section .info .line1 {
+    font-size: 16px;
+    margin-top: 130px; 
+}
+section .info .line2 {
+    font-size: 14px; 
+}
+section .info .line3 {
+    text-align: right;
+    font-size: 30px;
+}
+.fa-instagram{
+	font-size: 24px;
+}
+
+footer{
+	background-color: #202023;
+}
+.nav2 .nav-link{
+	color: #fff;
+}
+.nav3 .nav-link{
+	color: gray;
+}
+.dropdown-divider{
+	border-color: #b5b5b5;
+}
